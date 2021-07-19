@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 40px;
+}
+h1{
+    
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+}
+p{
+    padding-bottom: 30%;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+}
+div{
+    padding: 40px;
+}
+#naranja{
+    width: 10%;
+    background-color: hsl(31, 77%, 52%);
+    text-align: justify;
+    border-radius: 5px 0px 0px 5px;
+}
+#azul{
+    width: 10%;
+    background-color: hsl(184, 100%, 22%);
+    text-align: justify;
+}
+#verde{
+    width: 10%;
+    background-color: hsl(179, 100%, 13%);
+    text-align: justify;
+    border-radius: 0px 5px 5px 0px;
+}
+button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.naranja{
+    color: hsl(31, 77%, 52%);
+}
+.azul{
+    color: hsl(184, 100%, 22%);
+}
+.verde{
+    color:  hsl(179, 100%, 13%);
+}
